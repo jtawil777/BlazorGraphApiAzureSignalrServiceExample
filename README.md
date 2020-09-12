@@ -1,6 +1,6 @@
 # BlazorGraphApi
 
-Blazor Server App with Azure AD Authentication, Azure SignalR Service, that calls the Microsoft Graph API on-behalf of the signed-in user.
+Blazor Server App with Azure AD Authentication, Azure SignalR Service, that calls the Microsoft Graph API on-behalf of the signed-in user. Original code at: https://github.com/wmgdev/BlazorGraphApi
 
 ## This code does not work and should not be used in production. Created to demonstrate a bug.
 
