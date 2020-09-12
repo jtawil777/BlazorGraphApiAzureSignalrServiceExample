@@ -26,6 +26,12 @@ You will need to register your app in Azure and modify appsettings.json to inclu
     "BaseUrl": "https://graph.microsoft.com/beta",
     "Scopes": "user.read"
   },
+  "Azure": {
+    "SignalR": {
+      "Enabled": "true",
+      "ConnectionString": "{Azure SignalR Server}"
+    }
+  },
   "Logging": {
     "LogLevel": {
       "Default": "Information",
