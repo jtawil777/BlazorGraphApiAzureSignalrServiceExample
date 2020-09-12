@@ -49,6 +49,11 @@ namespace BlazorGraphApi
             services.AddServerSideBlazor()
                 .AddMicrosoftIdentityConsentHandler();
             
+            services.AddServerSideBlazor()
+                .AddMicrosoftIdentityConsentHandler();
+
+            services.AddSignalR().AddAzureSignalR();
+            
             services.AddSingleton<WeatherForecastService>();
         }
 
