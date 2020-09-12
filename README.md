@@ -2,6 +2,8 @@
 
 Blazor Server App with Azure AD Authentication, Azure SignalR Service, that calls the Microsoft Graph API on-behalf of the signed-in user.
 
+** This code does not work and should not be used in production. Created to demonstrate a bug. **
+
 Sample project put together for bug: https://github.com/AzureAD/microsoft-identity-web/issues/573
 
 This code uses [Microsoft.Indentity.Web](https://github.com/AzureAD/microsoft-identity-web)
